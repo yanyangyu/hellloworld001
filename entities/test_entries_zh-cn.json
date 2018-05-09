@@ -1,0 +1,17 @@
+[
+  {
+    "value": "你好",
+    "synonyms": [
+      "你好",
+      "Hello",
+      "哈囉"
+    ]
+  },
+  {
+    "value": "世界",
+    "synonyms": [
+      "世界",
+      "world"
+    ]
+  }
+]

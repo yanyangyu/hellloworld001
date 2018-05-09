@@ -1,0 +1,52 @@
+{
+  "id": "e372fc19-4de6-49a8-9c0b-7ef6ba8ae0a3",
+  "name": "helloworld",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e3186a93-1eea-4976-9fb4-857a4ecc9711",
+          "required": false,
+          "dataType": "@test",
+          "name": "test",
+          "value": "$test",
+          "isList": false
+        },
+        {
+          "id": "74ba1a8f-f615-4053-aed7-5b47e266de59",
+          "required": false,
+          "dataType": "@test",
+          "name": "test1",
+          "value": "$test1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "zh-cn",
+          "speech": [
+            "我很好",
+            "祝福你也好"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525875935,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "Helllo"
+    }
+  ]
+}

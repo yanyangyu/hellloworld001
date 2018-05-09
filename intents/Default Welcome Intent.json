@@ -1,0 +1,59 @@
+{
+  "id": "7991d9f0-8032-448c-9b64-00091ef4d283",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi!",
+            "Hello!",
+            "Good day!",
+            "Greetings!"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "zh-tw",
+          "speech": [
+            "嘿！",
+            "你好！",
+            "嘿！ 好久不見！",
+            "歡迎歸來。",
+            "嘿！歡迎你回來。"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "zh-cn",
+          "speech": [
+            "嘿！",
+            "你好！",
+            "嘿！ 好久不见！",
+            "欢迎归来。",
+            "嘿！欢迎你回来。"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
